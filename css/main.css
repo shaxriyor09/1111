@@ -1,0 +1,469 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.header__list{
+    display: flex;
+}
+
+.header__list2{
+    display: flex;
+}
+
+.header__list3{
+    display: flex;
+}
+
+.header__link{
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+    color: black;
+}
+
+.header__link:hover{
+    color: rgb(188, 23, 23);
+}
+
+.header__item{
+    display: flex;
+}
+
+.header__mark{
+    background-color: white;
+    color: rgb(188, 23, 23);
+    font-family: Heebo , sans-serif;
+    font-size: 20px;
+    font-weight: 570;
+    text-align: left;
+    text-decoration: none;
+}
+
+.header__last{
+    font-family: Heebo , sans-serif;
+    font-size: 20px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.header__but{
+    margin-left: 200px;
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(188, 23, 23);
+    color: white;
+    margin-top: 30px;
+    transition: all 1s ease;
+}
+
+.header__but:hover{
+    background-color: white;
+    border: 1px solid rgb(288, 23, 23);
+    color: black;
+    filter: drop-shadow(10px 7px 10px rgb(188, 23, 23));
+}
+
+.header__img{
+    margin-top: 30px;
+}
+
+.header__hr{
+    color: black;
+}
+
+.header__hr:hover{
+    color: blue;
+    filter: drop-shadow(10px 7px 10px blue);
+}
+
+/* -------------------------------------------------------------hero----------------------------------------------------- */
+
+
+.hero__container{
+    padding-top: 250px;
+}
+.hero__mark{
+    background-color: white;
+    color: rgb(188, 23, 23);
+    font-family: Heebo;
+    font-size: 45px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.hero__item{
+    font-family: Heebo;
+    font-size: 45px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.hero__last{
+    color: rgb(105, 105, 105);
+}
+
+.hero__but{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgb(188, 23, 23);
+    color: white;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+
+.hero__but:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(188, 23, 23);
+    filter: drop-shadow(10px 7px 10px rgb(188, 23, 23));
+}
+
+.hero__wrapper{
+    margin-left: 40px;
+}
+
+.hero__list{
+    display: flex;
+}
+
+.hero__img{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+/* ---------------------------------------------------------services-------------------------------------------------------- */
+
+.services__item{
+    font-family: Heebo , ;
+    font-size: 30px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.services__item2{
+    color:  rgb(188, 23, 23);
+    margin-left: 30px;
+}
+
+.services__list2{
+    display: flex;
+}
+
+.services__item2p{
+    color: rgb(188, 23, 23);
+}
+
+.services__item3{
+    color: rgb(188, 23, 23);
+    margin-left: 20px;
+}
+
+.services__img{
+    margin-left: 30px;
+}
+
+.services__last2{
+    color: rgb(105, 105, 105);
+    margin-left: 95px;
+}
+
+.services__last3{
+    color: rgb(105, 105, 105);
+    margin-left: 95px;
+}
+
+.services__last{
+    color: rgb(105, 105, 105);
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.services__item4{
+    color: rgb(188, 23, 23);
+}
+
+.services__last4{
+    color: rgb(105, 105, 105);
+    margin-left: 300px;
+}
+
+.services__list1{
+    display: flex;
+}
+
+.services__list2{
+    display: flex;
+}
+
+.services__list3{
+    display: flex;
+}
+
+.services__list4{
+    display: flex;
+}
+
+.services__list5{
+    display: flex;
+}
+
+.services__list6{
+    display: flex;
+}
+
+/* ---------------------------------------------------------main------------------------------------------------------------ */
+
+.main__item{
+    font-family: Heebo , ;
+    font-size: 30px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main__box{
+    margin-top: 50px;
+    list-style: none;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(159, 159, 159); */
+    box-shadow: 5px 5px 30px 5px ;
+    margin: 40px;
+}
+
+.main__img{
+    border-radius: 10px;
+}
+
+.main__last{
+    color: rgb(105, 105, 105);
+    margin-left: 40px;
+}
+
+.main__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__item2{
+    margin-left: 40px;
+}
+
+/* --------------------------------------------------------article-------------------------------------------------------- */
+
+.article__item{
+    font-family: Heebo , ;
+    font-size: 30px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.article__box{
+    margin-top: 50px;
+    list-style: none;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(159, 159, 159); */
+    box-shadow: 5px 5px 30px 5px ;
+    margin: 40px;
+}
+
+.article__img{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.article__item3{
+    margin-left: 15px;
+}
+
+.article__last{
+    margin-left: 15px;
+    color: rgb(105, 105, 105);
+}
+
+.article__mark{
+    background-color: white;
+    color: black;
+    font-family: Heebo , ;
+    font-size: 19px;
+    font-weight: 570;
+}
+
+.article__last2{
+    color: rgb(105, 105, 105);
+    margin-left: 10px;
+}
+
+.article__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* --------------------------------------------------section--------------------------------------------------------- */
+
+.section__list{
+    display: flex;
+}
+
+.section__box{
+    list-style:none;
+    width: 600px;
+    height: 300px;
+    /* border: 1px solid rgb(103, 103, 103); */
+    margin-left: 40px;
+    box-shadow: 5px 5px 30px 5px;
+    border-radius: 15px;
+    background-color: rgb(231, 231, 243);
+}
+
+.section__box2{
+    margin-left: 70px;
+    list-style: none;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px 5px;
+    background-color: rgb(231, 231, 243);
+}
+
+.section__item{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(40, 58, 119);
+}
+
+.section__img{
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.section__item2{
+    margin-left: 30px;
+    margin-top: 40px;
+    color: rgb(40, 58, 119);
+}
+
+.section__last{
+    margin-left: 30px;
+    color: rgb(80, 80, 80);
+}
+
+.section__input{
+    margin-left: 30px;
+    width: 330px;
+    height: 28px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.section__but{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 337px;
+    height: 33px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(188, 23, 23);
+    transition: all 1s ease;
+}
+
+.section__but:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(188, 23, 23);
+}
+
+/* ---------------------------------------------------------swipper------------------------------------------------------- */
+
+.nima__gap{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    }
+  
+    .swiper {
+      width: 1200px;
+      height: 600px;
+    }
+  
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .swiper-slide img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-top: 15px;
+    }
+
+/* ------------------------------------------------------number--------------------------------------------------- */
+
+.number__list{
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+
+.number__item{
+    font-family: Heebo , ;
+    font-size: 30px;
+    font-weight: 570;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.number__hr{
+    height: 90px;
+    border: 0.5px solid red;
+}
+
+ 
+
+
+ 
+
+ 
+ 
